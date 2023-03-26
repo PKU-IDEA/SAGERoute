@@ -3,7 +3,7 @@
 ## Overview
 SAGERoute takes circuit netlist, technology file and user defined config as input to generate the high-quality solution for analog circuit. 
 
-![](figs/fig.png)
+![](SAGERoute.png)
 
 ## Test 
 ```
