@@ -16,7 +16,7 @@ result:      You could save the gds result here
 ```
 ## Test 
 ```
-./paprika/main/sageroute \ 
+./sageroute \ 
 --techfile="../benchmark/mockPDK/lef.json"  \
 --paramfile="../benchmark/ota2/config.json" \ 
 --netlist="../benchmark/ota2/ota2.sp"       \
