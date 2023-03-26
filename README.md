@@ -3,7 +3,10 @@
 ## Overview
 SAGERoute takes circuit netlist, technology file and user defined config as input to generate the high-quality solution for analog circuit. 
 
+![](figs/fig.png)
+
 ## Test 
+```
 ./paprika/main/sageroute \ 
 --techfile="../benchmark/mockPDK/lef.json"  \
 --paramfile="../benchmark/ota2/config.json" \ 
@@ -11,7 +14,7 @@ SAGERoute takes circuit netlist, technology file and user defined config as inpu
 --placement="../benchmark/ota2/ota2.json"   \
 --constraints="../benchmark/ota2/elec.json" \
 --result="../benchmark/ota2/ota2.gds"         
-
+```
 
 
 ## Contact
