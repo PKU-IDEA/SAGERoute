@@ -1,0 +1,12 @@
+{
+  "costH" : 1,
+  "costV" : 1,
+  "costVia" : 800,
+  "costB" : 500,
+  "costOB" : 1000,
+  "history_cost" : 800,
+  "gridStep" : 100,
+  "rlayer_min" : "M1",
+  "rlayer_max" : "M6",
+  "powerwireWidth"  : 400
+}
