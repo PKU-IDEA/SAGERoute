@@ -18,7 +18,7 @@ result:      You could save the gds result here
 ```
 Operating system:  Ubuntu 18.04 
 GCC version:  7.5.0
-Runtime dependency:
+Runtime dependency: GCC 7.5.0, Lpsolve
 ```
 
 ## Test 
