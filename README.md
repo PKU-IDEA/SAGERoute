@@ -48,7 +48,7 @@ Runtime dependency: GCC 7.5.0, Lpsolve
 
 ## Contact
 
-For any questions, please do not hesitate to contact us or raise [https://github.com/PKU-IDEA/SAGERoute/issues](issues on Github).
+For any questions, please do not hesitate to contact us or raise [issues on Github](https://github.com/PKU-IDEA/SAGERoute/issues).
 
 ```
 Haoyi Zhang: hy.zhang@stu.pku.edu.cn
