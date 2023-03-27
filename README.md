@@ -33,7 +33,7 @@ Runtime dependency: GCC 7.5.0, Lpsolve
 ```
 
 
-## Citation section
+## Citation
 
 ```
 @inproceedings{zhang2023sageroute,
