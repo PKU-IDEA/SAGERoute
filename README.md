@@ -36,7 +36,7 @@ Runtime dependency: GCC 7.5.0, Lpsolve
 ## Citation section
 
 ```
-@inproceedings{chen2023macrorank,
+@inproceedings{zhang2023sageroute,
     author = {Zhang, Haoyi and Gao, Xiaohan and Luo, Haoyang and Song, Jiahao and Liu, Junhua and Tang, Xiyuan and Lin, Yibo and Wang, Runsheng and Huang, Ru},
     title = {SAGERoute: Synergistic Analog Routing Considering Geometric and Electrical Constraints with Manual Design Compatibility},
     booktitle = {IEEE/ACM Proceedings Design, Automation and Test in Eurpoe (DATE)},
