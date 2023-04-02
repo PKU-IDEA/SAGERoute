@@ -31,14 +31,16 @@ To use the taged manual placement(Gds type) ,you should use the following commad
 ```
 
 ## Tag Gds Prepare
-```
+
 If you want to use the routing with the manual gds input, please prepare the gds according to the following steps:
 1. TAG all of the pins with correct net name, note that the router will connect the pins with the same net name. (TAG is on the Metal layer not the pin layer)
 2. Select correct routing layer in config.json
 3. set the bLayoutparse to true.
 Here is an example of a taged gds: 
-```
+
 ![](Tag.png =100x100)
+
+
 ## Contact
 
 For any questions, please do not hesitate to contact us.
