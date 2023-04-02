@@ -8,5 +8,16 @@
   "gridStep" : 100,
   "rlayer_min" : "M1",
   "rlayer_max" : "M6",
-  "powerwireWidth"  : 400
+  "powerwireWidth"  : 400,
+  "min_x" : -30000,
+  "min_y" : -30000,
+  "max_x" : 160000,
+  "max_y" : 160000,
+  "cut_layer_shift" : 20,
+  "min_spacing" : 70,
+  "costMax" : 200000,
+  "bLayoutparse" : false,
+  "bPowerIO" : true,
+  "max_iterationp" : 15,
+  "max_iterations" : 10
 }
