@@ -16,6 +16,7 @@ result:      You could save the gds result here
 ```
 ## Test 
 ```
+To use netlist and placement as input you should use the following command
 ./sageroute \ 
 --techfile="../benchmark/mockPDK/lef.json"  \
 --paramfile="../benchmark/ota2/config.json" \ 
@@ -23,6 +24,10 @@ result:      You could save the gds result here
 --placement="../benchmark/ota2/ota2.json"   \
 --constraints="../benchmark/ota2/elec.json" \
 --result="../benchmark/ota2/ota2.gds"         
+
+To use the taged manual placement(Gds type) ,you should use the following commad
+--techfile="" --paramfile="" --placement_gds="" --constraints=""(optional) --result=""
+
 ```
 
 
