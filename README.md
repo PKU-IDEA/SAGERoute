@@ -1,4 +1,4 @@
-# SAGERoute: Synergistic Analog Routing Considering Geometric and Electrical Constraints with Manual Design Compatibility
+# SAGERoute1.0.0: Synergistic Analog Routing Considering Geometric and Electrical Constraints with Manual Design Compatibility
 
 ## Overview
 SAGERoute takes circuit netlist, technology file and user defined config as input to generate the high-quality solution for analog circuit. 
