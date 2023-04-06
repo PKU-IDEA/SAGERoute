@@ -1,11 +1,11 @@
 # SAGERoute: Synergistic Analog Routing Considering Geometric and Electrical Constraints with Manual Design Compatibility
 
-## Overview
+## 1. Overview
 SAGERoute takes circuit netlist, technology file and user defined config as input to generate the high-quality solution for analog circuit. 
 
 ![](Overview.png)
 
-## Introduction of the input
+## 2. Input Parameters
 ```
 techfile:    Basic information of technology lib. Here we release a mock PDK for your test.
 paramfile:   Some parameters for user to directly control the routing kernel.
@@ -15,14 +15,14 @@ placement_gds: Optional. Tagged placement in GDSII format.
 constraints: Optional. The electric current information of the circuit.
 result:      You could save the result in GDSII format here.
 ```
-## Compilation Platform
+## 2. Compilation Platform
 ```
 Operating system:  Ubuntu 18.04 
 GCC version:  7.5.0
 Runtime dependency: Lpsolve5.5 (liblpsolve55.so), libz.so, libm.so, libc.so, libdl.so
 ```
 
-## Test 
+## 3. Run to the Program 
 ```
 To use netlist and placement as input you should use the following command
 ./sageroute \ 
@@ -43,7 +43,7 @@ To use the tagged manual placement (GDSII format), you should use the following 
 
 ```
 
-## Preparation of Tagged GDSII for Placement
+## 4. Preparation of Tagged GDSII for Placement
 ```
 If you want to use the routing with the manual GDSII input, please prepare the GDSII according to the following steps:
 1. TAG all of the pins with correct net name, note that the router will connect the pins with the same net name. (TAG is on the Metal layer not the pin layer)
@@ -55,7 +55,7 @@ Here is an example of a tagged GDSII file:
 ![](Tag.png)
 
 
-## Citation
+## 5. Citation
 
 ```
 @inproceedings{zhang2023sageroute,
@@ -68,9 +68,9 @@ Here is an example of a tagged GDSII file:
 }
 ```
 
-## Contact
+## 6. Contact
 
-For any questions, please do not hesitate to contact us or raise [issues on Github](https://github.com/PKU-IDEA/SAGERoute/issues).
+If you have any questions, please do not hesitate to contact us or raise [issues on Github](https://github.com/PKU-IDEA/SAGERoute/issues).
 
 ```
 Haoyi Zhang: hy.zhang@stu.pku.edu.cn
