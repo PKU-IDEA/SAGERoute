@@ -33,7 +33,7 @@ To use netlist and placement as input you should use the following command
 --constraints="../benchmark/ota2/elec.json" \
 --result="../benchmark/ota2/ota2.gds"         
 
-To use the taged manual placement(Gds type) ,you should use the following commad:
+To use the tagged manual placement(Gds type) ,you should use the following commad:
 ./sageroute \
 --techfile="../benchmark/mockPDK/lef.json" \
 --paramfile="../benchmark/ota2/config.json" \
@@ -43,13 +43,13 @@ To use the taged manual placement(Gds type) ,you should use the following commad
 
 ```
 
-## Tag Gds Prepare
+## Preparation of Tagged Gds for Placement
 ```
 If you want to use the routing with the manual gds input, please prepare the gds according to the following steps:
 1. TAG all of the pins with correct net name, note that the router will connect the pins with the same net name. (TAG is on the Metal layer not the pin layer)
 2. Select correct routing layer in config.json
 3. set the bLayoutparse to true.
-Here is an example of a taged gds: 
+Here is an example of a tagged gds: 
 ```
 
 ![](Tag.png)
