@@ -53,7 +53,7 @@ If you want to use the routing with the manual GDSII input, please prepare the G
 ```
 1. TAG all of the pins with correct net name, note that the router will connect the pins with the same net name. (TAG is on the Metal layer not the pin layer)
 2. Select correct routing layer in config.json
-3. set the bLayoutparse to true.
+3. Set the bLayoutparse to true.
 ```
 Here is an example of a tagged GDSII file: 
 
