@@ -49,8 +49,8 @@ The placement_gds in mode2 contains more information including the device struct
 We provide a testcase for mode1. However we can't provide gds case for mode2 due to NDA. You should prepare the placement_gds following the next step
 
 ## 4. Preparation of Tagged GDSII for Placement
-```
 If you want to use the routing with the manual GDSII input, please prepare the GDSII according to the following steps:
+```
 1. TAG all of the pins with correct net name, note that the router will connect the pins with the same net name. (TAG is on the Metal layer not the pin layer)
 2. Select correct routing layer in config.json
 3. set the bLayoutparse to true.
